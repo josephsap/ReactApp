@@ -1,0 +1,11 @@
+.dropdown-menu {
+    cursor: pointer;
+}
+
+.dropdown-menu :hover{
+    background: rgb(166, 248, 244);
+}
+
+.dropdown-menu :active {
+    background-color: aqua;
+}

@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 import "../../Global.css";
-
+///movies api http://www.omdbapi.com/?apikey=b90ede8f&t=21+jump+street
 //import data
 import mockData from "../../Data/mockData";
 

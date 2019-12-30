@@ -1,8 +1,8 @@
 import React from 'react';
-import DropDown from '../src/Component/DropDown/DropDown';
+import MoviesDatabase from '../src/Pages/MoviesDb' 
 
 const App = () => {
-  return <DropDown/>
+  return <MoviesDatabase/>
 }
 
 export default App;

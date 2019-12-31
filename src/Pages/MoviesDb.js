@@ -1,9 +1,14 @@
 //react library
 import React, { Fragment } from "react";
 
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap";
+
 //import component
 import Input from "../Component/Input/Input";
 import Images from "../Component/Images/Images";
+import Button from "../Component/Button/Button";
+import Modal from "../Component/Modal/Modal";
 
 class MoviesDatabase extends React.Component {
   state = {
@@ -54,6 +59,8 @@ class MoviesDatabase extends React.Component {
         ) : (
           "Please Enter Valid movie Name"
         )}
+        <Button dataTarget="#modal001" dataToggle="modal" />
+        <Modal id="modal001"  title = "test"/>
       </Fragment>
     );
   }

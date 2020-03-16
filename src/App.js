@@ -1,8 +1,8 @@
 import React from 'react';
-import MoviesDatabase from '../src/Pages/MoviesDb' 
+import Spotify from '../src/Pages/Spotify' 
 
 const App = () => {
-  return <MoviesDatabase/>
+  return <Spotify/>
 }
 
 export default App;

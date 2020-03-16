@@ -25,17 +25,24 @@ const Modal = props => {
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">New Modal Loaded</div>
+          <div class="modal-body">{props.body}</div>
           <div class="modal-footer">
             <button
               type="button"
               class="btn btn-secondary"
               data-dismiss="modal"
+              value={props.btnYes}
+              onClick={props.onYesClick}
             >
-              Close
+              Yes
             </button>
-            <button type="button" class="btn btn-primary">
-              Save changes
+            <button
+              type="button"
+              class="btn btn-primary"
+              value={props.btnNo}
+              onClick={props.onNoClick}
+            >
+              No
             </button>
           </div>
         </div>

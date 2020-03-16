@@ -7,7 +7,7 @@ const Input = props => {
           <label>{props.label || "Enter movie name"}</label>
           <input
             id="inputmovie"
-            placeholder="Enter movie name..."
+            placeholder={props.placeholder}
             value={props.value}
             onKeyDown={props.onKeyDown}
             onChange={props.onChange}

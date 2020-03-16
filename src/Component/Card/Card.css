@@ -1,0 +1,17 @@
+.card-body {
+  width: 45%;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 9px 0px #b6f3a6;
+  padding: 20px;
+  background: black;
+}
+
+.delete-album {
+  float: right;
+  background-color: black;
+  border-color: black;
+}
+
+.delete-album:focus {
+  border: 1px solid red;
+}

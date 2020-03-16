@@ -3,12 +3,15 @@ import React from "react";
 const Button = props => {
   return (
     <button
+      id={props.id}
       type="button"
-      class="btn btn-primary"
+      className={`btn btn-primary ${props.className}`}
       data-toggle={props.dataToggle}
       data-target={props.dataTarget}
+      onClick={props.onClick}
+      value = {props.value}
     >
-    see more
+      {props.btnName}
     </button>
   );
 };

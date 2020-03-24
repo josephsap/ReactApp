@@ -21,7 +21,7 @@ class Spotify extends React.Component {
   /**
    * get Access token when expire
 https://accounts.spotify.com/authorize?client_id=325804d634674f7ea914759a63d661e9&client_secret=eff1da8793c54747a5048dd8d8ffaaae&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F%20callback%2F
-curl -H "Authorization: Basic MzI1ODA0ZDYzNDY3NGY3ZWE5MTQ3NTlhNjNkNjYxZTk6ZWZmMWRhODc5M2M1NDc0N2E1MDQ4ZGQ4ZDhmZmFhYWU=" -d grant_type=authorization_code -d code=AQAEqh6Z8wnc5Ve8CzVAPlpxAWKwI45Om8GpfG_Ux1357S-vrYpacsxsPs-rzkIRjYxHHxaS8IhPwcoOOrVVZ2x2587JdHmXHLonolL3k0K9jjT-1aHvd1t0vHuiTmlua0XAPu-cx52dyBjokLzGIvaGu5OxSXTCLbZo3FPML6ii6dnM0iQ-TgzH_xxp0v4Ky5RuJiPH -d redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F%20callback%2F auth https://accounts.spotify.com/api/token
+curl -H "Authorization: Basic MzI1ODA0ZDYzNDY3NGY3ZWE5MTQ3NTlhNjNkNjYxZTk6ZWZmMWRhODc5M2M1NDc0N2E1MDQ4ZGQ4ZDhmZmFhYWU=" -d grant_type=authorization_code -d code=AQDLefR3GAHIjjWTFoHGNzalF23w6Hxyxj3PSUrAT99hTYmY32rMDYg-cxFx91di5irjSo9tMmxJItRfnc1XQydyxuAUv79oBbtXMy1QYkYFaKz0DjgEooMkAEPkqHrIUkYTwwIYT9ffMF6BqHTqzuBe35F5JRY9VcEZglQeCYGOPnNfc3C-Lfhhv1vm_hsKTnGPWO7L -d redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F%20callback%2F auth https://accounts.spotify.com/api/token
 AQCzGBW0t4DTn9F72suHzLVaTfsit2mfdbekKjO5lr_3Ceosa9h7er5-G5JZhJp_y0QCBB1EBDeNz3ON_WPZ-Sm6FaoDUf-kEmr3ND9OfW--PASe9qXAQkmZcQGo59aIwljzFPCevanzbdPv7lMt5yoT7mggF53LJx2bmmBFt2TmbSdkMX7LL3pzT_evGNnxQCzWDghZ   
 */
   /* Refresh Token
@@ -34,7 +34,7 @@ AQCzGBW0t4DTn9F72suHzLVaTfsit2mfdbekKjO5lr_3Ceosa9h7er5-G5JZhJp_y0QCBB1EBDeNz3ON
       `https://api.spotify.com/v1/search?q=${this.state.artistName}&type=artist&limit=10&offset=0`,
       {
         headers: {
-          Authorization: `Bearer BQDupDhHedP0VjjQXU2HM_2RVkLMUMOdjM21amrk-hLO6u6S6rPswTjZJsT-lX2RWHPLLolb0FJlOba5Nq6W0gARy2zZ8NrWCA50Gv2rHUICsCAY6SBiiKZdSHCWmOJC-4vXVOct0bqgK9vTHQ`
+          Authorization: `Bearer BQD0vnnwHGxQHzH06WTrDik5K_nM9xfDer6tuVVlZ-2-EmYHaRfqDG3gigi3JQ8dp4xnukvSQ0DcI3OYu4f2ZOjq4k8GP24tSdBjGwixbK_iNrSXPt1AsLxxAY9HTMBFGAtcUTTpmiY_nk7y8g`
         }
       }
     )

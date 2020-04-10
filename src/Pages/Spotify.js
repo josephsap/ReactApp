@@ -103,7 +103,6 @@ AQCzGBW0t4DTn9F72suHzLVaTfsit2mfdbekKjO5lr_3Ceosa9h7er5-G5JZhJp_y0QCBB1EBDeNz3ON
                     dataTarget="#modal001"
                     dataToggle="modal"
                   />
-
                   <iframe
                     src={`https://open.spotify.com/embed/artist/${item.id}`}
                     width="300"
